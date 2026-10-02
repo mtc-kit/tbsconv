@@ -8,6 +8,10 @@
 *.so
 *.dylib
 
+# Output of `go build ./cmd/tbsconv` here or `go build` in cmd/tbsconv
+/tbsconv
+/cmd/tbsconv/tbsconv
+
 # Test binary, built with `go test -c`
 *.test
 
